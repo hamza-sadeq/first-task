@@ -1,0 +1,354 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-header{
+  width: 100px;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+
+}
+
+.text-head{
+  padding: 0 10px;
+  cursor: pointer; 
+}
+
+.text-head:hover{
+  text-decoration: underline violet solid 30%;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-btn{
+  padding: 0 40px;
+}
+
+.log-btn{
+  background-color: white;
+  color: black;
+  padding: 5px 25px;
+  border:none ;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container{
+  background-image: url(images/blue_bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.img-waves{
+   width: 1100px;
+   position: absolute;
+   left: 0;
+   top: 450px;
+   z-index: 5;
+}
+
+.first-text{
+  position: relative;
+  top: 50px;
+}
+
+.sell{
+  font-size: 45px;
+  font-weight: 500;
+  color: #777;
+  position: absolute;
+  left: 100px;
+  top: 170px;
+}
+
+.sell span{
+  color: rgb(182, 84, 182);
+}
+
+.leave{
+  font-size: 18px;
+  font-weight: 300;
+  color: #777;
+  position: absolute;
+  top: 230px;
+  left: 105px;
+  width: 400px;
+}
+
+.back1{
+  width: 700px;
+  position: absolute;
+  right: 30px;
+}
+
+.man{
+  position: absolute;
+  right: 130px;
+  top: 0;
+}
+
+.clouds{
+  position: absolute;
+  right: 30px;
+  top: 480px;
+}
+
+.container1{
+  position: relative;
+  top: 250px;
+  margin-left: 100px;
+}
+
+.img-container{
+  width: 150px;
+  position: relative;
+  left: 40px;
+}
+
+.text-container{
+  color: #777;
+  font-size: 15px;
+  position: absolute;
+  left: 20px;
+}
+
+.text-container span{
+  width: 400px;
+  position: absolute;
+  left: -40px;
+}
+
+.container2{
+  position: relative;
+  top: 250px;
+  margin-left: 500px;
+}
+
+.container3{
+  position: relative;
+  top: 350px;
+  direction: rtl;
+  margin-right: 350px;
+}
+
+.text-container3{
+  color: #777;
+  font-size: 15px;
+  position: absolute;
+  right: -70px;
+}
+
+.text-container3 span{
+  width: 500px;
+  position: absolute;
+  right: -80px;
+} 
+
+.title-container{
+   padding-left: 40px;
+}
+
+.img-container2{
+  padding-left: 10px;
+  width: 150px;
+  position: relative;
+  left: 40px;
+}
+
+.title-container2{
+  padding-left: 55px;
+}
+
+.road{
+  width: 780px;
+  position: absolute;
+  top: 870px;
+  left: 300px;
+}
+
+.why{
+  width: 300px;
+  position: relative;
+   top: 170px;
+   left: 70px;
+}
+
+.text-img{
+  position: absolute;
+  left: 150px;
+  color: white;
+  font-size: 13px
+}
+
+.text-img span{
+  font-size: 45px;
+}
+
+.all-cont{
+  margin-top: 350px;
+}
+
+.sky-diving{
+  width: 300px;
+}
+
+.round{
+  font-size: 21px;
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
+
+.only{
+  color: #777;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-left: 55px;
+}
+
+.only span{
+  margin-left: 45px;
+}
+
+.cont-1{
+  position: absolute;
+  left: 500px;
+}
+
+.greater-than{
+  color: #777;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 450px;
+  top: 1850px;
+  cursor: pointer;
+}
+
+.smaller-than{
+  color: #777;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 450px;
+  top: 1850px;
+  cursor: pointer;
+}
+
+.buisness{
+  width: 200px;
+  position: absolute;
+  right: 150px;
+  top: 1750px;
+}
+
+.jumping{
+  width: 170px;
+  position: absolute;
+  left: 150px;
+  top: 1750px;
+}
+
+footer{
+  margin-top: 700px;
+  background-image: url(images/edited3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 75vh;
+}
+
+.girl-signature{
+  width: 700px;
+  position: absolute;
+  right: 50px;
+  top: 2018px;
+}
+
+.apple-img{
+  position: absolute;
+  top: 2330px;
+  left: 50px;
+  background-color: white;
+  padding-right: 70px;
+  padding-left: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.app-store{
+  position: absolute;
+  top: 2350px;
+  left: 100px;
+  font-size: 10px;
+}
+
+.apple{
+  position: absolute;
+  top: 2340px;
+  left: 95px;
+  font-size: 7px;
+  color: #777;
+}
+
+.play-img{
+  position: absolute;
+  top: 2330px;
+  left: 170px;
+  background-color: white;
+  padding-right: 70px;
+  padding-left: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.play-store{
+  position: absolute;
+  top: 2350px;
+  left: 220px;
+  font-size: 10px;
+}
+
+.android{
+  position: absolute;
+  top: 2340px;
+  left: 210px;
+  font-size: 7px;
+  color: #777;
+}
+
+.social-icons{
+  position: absolute;
+  top: 2390px;
+  left: 50px;
+  color: white;
+}
+
+.social{
+  color: white;
+  padding-right: 10px;
+}
+
+.last-items{
+  display: flex;
+  position: absolute;
+  top: 2450px;
+  left: 45px;
+  color: white;
+}
+
+.items{
+  padding-right: 40px;
+}
